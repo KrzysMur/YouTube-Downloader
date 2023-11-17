@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: YTdownloader
+Version: 0.0.1
+Summary: YouTube audio downloader
+Author-email: Krzysztof Murawski <murek.krzys@gmail.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: requests
+Requires-Dist: importlib-metadata; python_version < "3.8"
+Requires-Dist: pytube

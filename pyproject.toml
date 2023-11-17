@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "YTdownloader"
+version = "0.0.1"
+authors = [
+    {name = "Krzysztof Murawski", email = "murek.krzys@gmail.com"},
+]
+description = "YouTube audio downloader"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "requests",
+    'importlib-metadata; python_version<"3.8"',
+	"pytube"
+]
+
+[project.scripts]
+pydownload = "app.main:main"

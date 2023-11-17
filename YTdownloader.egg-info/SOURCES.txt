@@ -1,0 +1,8 @@
+pyproject.toml
+YTdownloader.egg-info/PKG-INFO
+YTdownloader.egg-info/SOURCES.txt
+YTdownloader.egg-info/dependency_links.txt
+YTdownloader.egg-info/entry_points.txt
+YTdownloader.egg-info/requires.txt
+YTdownloader.egg-info/top_level.txt
+app/main.py
